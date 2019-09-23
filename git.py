@@ -2,7 +2,7 @@
 #
 # API -> https://github.com/PyGithub/PyGithub
 #
-#          by Gabriel Lira @ 2019
+#          by Gabriel Lira © 2019
 #
 #--------------------------------------------
 
