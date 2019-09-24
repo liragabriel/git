@@ -2,11 +2,14 @@
 #
 # API -> https://github.com/PyGithub/PyGithub
 #
-#          by Gabriel Lira @ 2019
+#           by Gabriel Lira @ 2019
 #
 #--------------------------------------------
 
 from github import Github
+from flask import Flask, render_template
+
+app = Flask(__name__)
 
 class Git:
 
@@ -40,3 +43,12 @@ class Git:
                 contents.extend(r.get_contents(file_content.path))
             else:
                 print(file_content)
+
+""" Rotas """
+
+@app.route('/')
+def inicio():
+    return render_template('test.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
