@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-#--------------------------------------------
-#
-# API -> https://github.com/PyGithub/PyGithub
-#
-#           by Gabriel Lira @ 2019
-#
-#--------------------------------------------
-=======
+
 """
     API -> https://github.com/PyGithub/PyGithub
                Gabriel Lira © 2019
 """
->>>>>>> b3d0082cc5c94274bd1e0f4a1fa30769f7f9f65e
 
 from github import Github
 from flask import Flask, render_template
