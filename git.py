@@ -1,10 +1,7 @@
-#--------------------------------------------
-#
-# API -> https://github.com/PyGithub/PyGithub
-#
-#          by Gabriel Lira © 2019
-#
-#--------------------------------------------
+"""
+    API -> https://github.com/PyGithub/PyGithub
+               Gabriel Lira © 2019
+"""
 
 from github import Github
 
